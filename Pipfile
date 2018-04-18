@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+cassiopeia = "*"
+roleidentification = {git = "https://github.com/meraki-analytics/role-identification.git"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
