@@ -1,0 +1,40 @@
+{
+  "name": "lol_summoner_spell_tracker",
+  "version": "1.0.0",
+  "description": "a webapp to track lol summoner spells",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -p --progress --config webpack.config.js",
+    "dev-build": "webpack --progress -d --config webpack.config.js",
+    "start": "python app.py",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --progress -d --config webpack.config.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baseballlover723/lol_summoner_spell_tracker.git"
+  },
+  "author": "Philip Ross",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/baseballlover723/lol_summoner_spell_tracker/issues"
+  },
+  "homepage": "https://github.com/baseballlover723/lol_summoner_spell_tracker#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.15",
+    "webpack-livereload-plugin": "^2.1.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  }
+}
