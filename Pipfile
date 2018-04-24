@@ -7,6 +7,7 @@ name = "pypi"
 flask = "*"
 cassiopeia = "*"
 roleidentification = {git = "https://github.com/meraki-analytics/role-identification.git"}
+python-dotenv = "*"
 
 [dev-packages]
 
