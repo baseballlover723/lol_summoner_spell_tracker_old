@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack -p --progress --config webpack.config.js",
+    "clean": "rm -rf node_modules && rm -rf dist",
     "dev-build": "webpack --progress -d --config webpack.config.js",
     "server": "python app.py",
     "start": "npm run build && npm run server",
