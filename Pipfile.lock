@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "32ec090b6bc60ce8b300c187b7df5af7bc7dddadbf87a9214a2de3eade9f614a"
+            "sha256": "fd0d96616e0c5380d7997082339d340a071e40bb86f1ed7423118e136a1613af"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,6 +16,14 @@
         ]
     },
     "default": {
+        "ansicolors": {
+            "hashes": [
+                "sha256:00d2dde5a675579325902536738dd27e4fac1fd68f773fe36c21044eb559e187",
+                "sha256:99f94f5e3348a0bcd43c82e5fc4414013ccc19d70bd939ad71e0133ce9c372e0"
+            ],
+            "index": "pypi",
+            "version": "==1.1.8"
+        },
         "arrow": {
             "hashes": [
                 "sha256:a558d3b7b6ce7ffc74206a86c147052de23d3d4ef0e17c210dd478c53575c4cd"
@@ -51,11 +59,11 @@
         },
         "flask": {
             "hashes": [
-                "sha256:0749df235e3ff61ac108f69ac178c9770caeaccad2509cb762ce1f65570a8856",
-                "sha256:49f44461237b69ecd901cc7ce66feea0319b9158743dd27a2899962ab214dac1"
+                "sha256:2271c0070dbcb5275fad4a82e29f23ab92682dc45f9dfbc22c02ba9b9322ce48",
+                "sha256:a080b744b7e345ccfcbc77954861cb05b3c63786e93f2b3875e0913d44b43f05"
             ],
             "index": "pypi",
-            "version": "==0.12.2"
+            "version": "==1.0.2"
         },
         "itsdangerous": {
             "hashes": [
@@ -168,6 +176,14 @@
             ],
             "index": "pypi",
             "version": "==0.8.2"
+        },
+        "rfc3339": {
+            "hashes": [
+                "sha256:589c8b8cab8a35f85313cb80f1b0b0b3ca16a527f354beadb59882fd4473f187",
+                "sha256:a8167214d37449a6af9b463285baffc87a6d65e013507fd1ba63a48a60b62043"
+            ],
+            "index": "pypi",
+            "version": "==6.0"
         },
         "roleidentification": {
             "git": "https://github.com/meraki-analytics/role-identification.git"

@@ -8,6 +8,8 @@ flask = "*"
 cassiopeia = "*"
 roleidentification = {git = "https://github.com/meraki-analytics/role-identification.git"}
 python-dotenv = "*"
+ansicolors = "*"
+"rfc3339" = "*"
 
 [dev-packages]
 
