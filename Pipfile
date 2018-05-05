@@ -10,6 +10,7 @@ roleidentification = {git = "https://github.com/meraki-analytics/role-identifica
 python-dotenv = "*"
 ansicolors = "*"
 "rfc3339" = "*"
+gunicorn = "*"
 
 [dev-packages]
 
